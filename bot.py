@@ -7,7 +7,7 @@ from telegram.ext import (
     filters
 )
 
-TOKEN = "8963669087:AAEBAXUFOOVdGWBdGhkyby6e5VADABYvMwM"
+TOKEN = "8963669087:AAGkuscOJKM4XF6uNuJ5HU_-ikWvLa7IvyY"
 
 # -------- MENU BUTTON --------
 menu = ReplyKeyboardMarkup(

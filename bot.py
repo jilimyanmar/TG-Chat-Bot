@@ -9,6 +9,8 @@ async def reply(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     if "hi" in text:
         await update.message.reply_text("မင်္ဂလာပါ 👋")
+        elif "price" in text:
+        await update.message.reply_text("Price - 5000 MMK")
 
 app = ApplicationBuilder().token(TOKEN).build()
 
